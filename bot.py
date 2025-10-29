@@ -3,7 +3,7 @@ import telebot
 from telebot import types
 
 # Get token from environment variable (Render) or replace the placeholder locally
-TOKEN = os.getenv("BOT_TOKEN", "REPLACE_WITH_YOUR_TOKEN")
+TOKEN = os.getenv("BOT_TOKEN", "8409926523:AAFpAAyF2TAdunT4AHHTpwAqPingCCk_x74")
 
 bot = telebot.TeleBot(TOKEN)
 
